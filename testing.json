@@ -1,0 +1,78 @@
+"questions": [
+    {
+      "title": "Hvilke funksjoner kan brukes for å teste med Jest?",
+      "answers": [
+        { "answere": "'jest' og 'test'" },
+        {
+          "answere": "'test' og 'try'"
+        },
+        {
+          "answere": "'try' og 'it"
+        },
+        {
+          "answere": "'it' og 'test'",
+          "correct": true
+        }
+      ],
+      "helper": {
+        "text": "Funksjonene forekommer også i noen andre kodespråk."
+      }
+    },
+    {
+        "title": "'after' kjøres...",
+        "answers": [
+          { "answere": "etter hver eksekverbare kodelinje." },
+          {
+            "answere": "etter alle tester er kjørt."
+          },
+          {
+            "answere": "etter hver test."
+          },
+          {
+            "answere": "etter alle testene i gruppen.",
+            "correct": true
+          }
+        ],
+        "helper": {
+          "text": "Navnet er svært beskrivende."
+        }
+      },
+    {
+        "title": "Hva er korrekt syntaks ved bruk av promise?",
+        "answers": [
+          { "answere": "async expect(promise).result.toBe('something')" },
+          {
+            "answere": "await expect(promise).result.toBe('something')"
+          },
+          {
+            "answere": "async expect(promise).resolves.toBe('something')"
+          },
+          {
+            "answere": "await expect(promise).resolves.toBe('something')",
+            "correct": true
+          }
+        ],
+        "helper": {
+          "text": "'await' brukes for å vente på et svar"
+        }
+      },
+    {
+        "title": "Hvilket bibliotek er mest populært ved testing av React Componenter?",
+        "answers": [
+          { "answere": "Node" },
+          {
+            "answere": "Enzyme"
+          },
+          {
+            "answere": "Jest"
+          },
+          {
+            "answere": "React Testing Library",
+            "correct": true
+          }
+        ],
+        "helper": {
+          "text": "Det ble populært etter at functional components og hooks ble populært"
+        }
+      }
+  ]
